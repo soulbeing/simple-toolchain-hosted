@@ -17,7 +17,7 @@ stages:
     job: Build
   triggers:
   - type: stage
-    enabled:false
+    enabled: false
   properties:
   - name: CF_APP_NAME
     value: undefined
